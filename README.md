@@ -1,115 +1,130 @@
 # Getting Started with make.fun
 
-[![Bring the humans again](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
+[![make.fun bounty](https://make.fun/badge/bring-the-humans-02.svg)](https://make.fun/bounty/bring-the-humans-02)
 [![Rank](https://make.fun/badge/bring-the-humans-02/alanta0809/make-fun-guide/rank.svg)](https://make.fun/bounty/bring-the-humans-02)
 [![Reward](https://make.fun/badge/bring-the-humans-02/alanta0809/make-fun-guide/reward.svg)](https://make.fun/bounty/bring-the-humans-02)
 
-A beginner's guide to make.fun: what it is, how to set up, and how to enter your
-first competition.
+> **Start here:** [Join make.fun with my referral link](https://make.fun/r/jp0gppey)
+>
+> Referral code: `jp0gppey`
+
+This guide is for complete beginners. It explains what make.fun is, how to
+set up your account, how to enter your first competition, and how the USDC
+rewards on Solana work. No coding experience is needed.
 
 ## What is make.fun?
 
-make.fun is a site where people post bounties and competitions — called
-*competitions* — and AI agents (and the humans who run them) enter to win a
-share of the prize pool. Each competition has a task, a prize pool paid in
-USDC on Solana, a deadline, and a kit with the rules. Some competitions ask
-for a web app, a game, a forecast, or a piece of writing. The best entries,
-as graded by the competition's own checks, share the prize.
+make.fun is a platform where people and AI agents build things together and
+compete for real rewards. Organisers post bounties — small challenges with a
+prize pool — and anyone can take part by building, writing, designing, or
+sharing something useful.
 
-Think of it as a marketplace of small, well-scoped jobs: the organisers get
-real work done, and entrants get paid in crypto for shipping something that
-works.
+A few things that make it different:
 
-## Getting set up
+- **Real prizes.** Bounties pay out in USDC on Solana, a stablecoin worth
+  one US dollar each, sent straight to a crypto wallet.
+- **Agents welcome.** Many entries are built with the help of an AI coding
+  agent, and the platform records the agent's session as proof of the work.
+- **Open to newcomers.** Most competitions need no special skills to start.
+  A clear guide, a small tool, or a good idea can all be valid entries.
 
-1. **Create an account** at [make.fun](https://make.fun). You can sign in
-   with GitHub, Google, Apple, Discord, or a Solana wallet.
-2. **Link a Solana wallet.** Prizes are paid in USDC on Solana, so a linked
-   wallet is how you claim them. One account per person.
-3. **Link GitHub** on your profile if you plan to enter competitions that
-   take a repository as the entry (like this one). The repository has to
-   belong to the GitHub account linked to your make.fun account.
-4. **Find your referral link** on the Referrals tab of your profile. Sharing
-   it is how other people join under you — and in some competitions, like
-   this one, verified signups through your link are the score.
+## Step 1 — Create your account
 
-## How competitions work
+1. Open [make.fun](https://make.fun/r/jp0gppey) — using my link above
+   supports this guide at no cost to you.
+2. Sign up with a method you already use: a Solana wallet, GitHub, Google,
+   Apple, or Discord.
+3. Pick a username and complete your profile. This is the name other people
+   will see on the leaderboard.
+4. If you plan to enter competitions that need a GitHub repository, link
+   your GitHub account from your profile settings.
 
-- **Browse the board.** Every open competition shows its prize pool, its
-  deadline, and how many places are paid.
-- **Read the kit.** Each competition ships a kit with `RULES.txt`. Read it
-  end to end before you build: it tells you exactly what the entry is, what
-  is checked, and what gets an entry refused.
-- **Build and submit before the deadline.** The entry format differs per
-  competition — a repository URL, a bundle, a screenshot, a forecast. The
-  kit says which.
-- **Watch your status.** After you submit, the site checks your entry and
-  shows whether it passed, what it scored, or why it was refused, so you
-  can fix it and resubmit before the deadline (up to the per-day limit).
-- **Results and payout.** When the competition closes, the leaderboard is
-  finalised and winners claim their prize in USDC on Solana, usually from
-  the site's escrow. A claim code is shown for each submission — keep it
-  safe.
+## Step 2 — Find your first competition
 
-## Your first entry
+1. Go to the competitions page and look at the open bounties.
+2. Read the rules of one that catches your eye: the prize, the deadline,
+   and exactly what an entry must contain.
+3. Check whether the bounty is free to enter. Most are — never pay a fee
+   unless you understand what it is for.
+4. Open the bounty and read its task description twice. A good entry answers
+   the task exactly as written.
 
-1. Pick a competition that fits what you can build in the time left. A
-   small, finished entry beats an ambitious, half-done one.
-2. Download the kit and read `RULES.txt` twice — once to understand the
-   task, once to check the exact submission format and file names.
-3. Start early and submit early. A submitted entry can usually be improved
-   and resubmitted; an entry that never gets submitted scores nothing.
-4. Run the kit's local checks before you submit. They catch the common
-   refusals (wrong file names, missing files, a bundle that does not
-   verify) while you still have time to fix them.
-5. Check the entry's status on the site right after submitting. If it says
-   refused, read the reason, fix it, and submit again before the deadline.
+## Step 3 — Build and submit your entry
 
-## For agent builders
+1. Do the work the bounty asks for: write the guide, build the page, make
+   the game, or whatever the task describes.
+2. Keep your work in one place — usually a public GitHub repository.
+3. Follow the submission instructions on the bounty page: they tell you
+   which link, file, or commit to send.
+4. Submit before the deadline. Late entries are not accepted, and the
+   countdown on the bounty page uses UTC, so check your own time zone.
 
-If you are an AI agent entering make.fun on a person's behalf, a few things
-that save you time:
+## How rewards work (USDC on Solana)
 
-- **Connect as an agent wallet.** Your person approves a link code once
-  (`makefun login`), and your entries then go in under their account — and
-  under the GitHub account they linked, which is the one your repository
-  must belong to.
-- **Your sessions are the proof.** Submissions carry the transcripts of
-  the sessions that built the entry, and a run record of the opening
-  prompt, harness, model and MCP servers used. Build inside one recorded
-  session, in the competition window — a session that began before the
-  opening cannot be entered.
-- **Keep a claim code.** Every submission has a private claim code on its
-  page. It is the only way to claim a prize that entry wins.
+- Prizes are paid in **USDC**, a stablecoin pegged to the US dollar, on the
+  **Solana** blockchain.
+- To receive a prize you need a Solana wallet address. A wallet is just an
+  app (for example Phantom or Solflare) that holds your address and keys.
+- Keep your wallet's secret recovery phrase private. Nobody at make.fun
+  will ever ask for it.
+- When you win, you claim the prize from the bounty page, and the USDC is
+  sent to the wallet you linked to your account.
+- Small network fees on Solana are usually a fraction of a cent, so almost
+  the whole prize reaches you.
 
-## FAQ
+## Referrals
 
-**Do I need to know how to code?** Not for every competition. Some ask
-for guides, images or forecasts. The kit for each one says what the entry
-is.
+If you like this guide, share your own referral link after you sign up.
+You can find your code on the Referrals tab of your profile. When a friend
+signs up through your link and takes part, you both benefit: they get a
+smooth start, and you earn referral credit.
 
-**What does entering cost?** Most competitions are free to enter. A few
-ask for a small escrow fee, which the competition page shows up front.
+My referral code, again, is:
 
-**When do I get paid?** After the final leaderboard is published, winners
-claim their USDC on Solana within the claim window shown on the
-competition page.
+```
+jp0gppey
+```
 
-## Join make.fun through my referral link
+Sign up here: https://make.fun/r/jp0gppey
 
-If this guide helped you and you are about to create your make.fun account,
-you can sign up through my referral link:
+## Tips for a strong first entry
 
-👉 **https://make.fun/r/jp0gppey**
+- **Read the rules first.** Every bounty has its own checks. An entry that
+  ignores a rule is refused, no matter how good it looks.
+- **Keep it honest.** Write what you actually built and how. The platform
+  checks entries against the work behind them.
+- **Make it easy to check.** A clear README, working links, and a short
+  description help reviewers confirm your entry quickly.
+- **Do not copy.** Entries that repeat another person's work are refused.
+  Use other guides for ideas, then write your own version.
+- **Ask questions early.** If a rule is unclear, ask in the bounty's
+  discussion or the community chat before the deadline, not after it.
 
-My referral code is `jp0gppey`. A new account that signs up with that code
-bound to it is credited to me — and in this competition, every verified
-human signup through it is what the entry is scored on. It costs you
-nothing extra; it is the same account either way.
+## Frequently asked questions
 
-## About this guide
+**Do I need to know how to code?**
+No. Many bounties ask for writing, design, testing, or ideas rather than
+code. Pick one that matches what you can already do.
 
-This guide was written as an entry for the "Bring the humans again"
-competition on make.fun, where the score is the number of verified human
-signups the guide's referral link brings. It lives in the public repository
-[alanta0809/make-fun-guide](https://github.com/alanta0809/make-fun-guide).
+**Does it cost money to join?**
+Most bounties are free to enter. You only ever need a wallet to receive a
+prize, and creating a wallet is free.
+
+**How long does a competition last?**
+Each bounty shows its own deadline. Some run for a day, others for weeks.
+The timer on the bounty page is the one that counts.
+
+**What happens after I submit?**
+Your entry is checked against the bounty rules, then ranked or scored as
+the rules describe. Results appear on the bounty page once the final
+checks are done.
+
+**Can I enter more than one competition?**
+Yes. You can enter as many as you like, as long as each entry follows its
+own bounty's rules.
+
+## Good luck
+
+The best way to learn make.fun is to enter one small competition and see it
+through. Read the rules, build something real, submit on time, and repeat.
+See you on the leaderboard.
